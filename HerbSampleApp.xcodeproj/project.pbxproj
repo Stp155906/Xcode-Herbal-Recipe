@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4070B662A1BBF4B009A99A2 /* HerbSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B652A1BBF4B009A99A2 /* HerbSampleAppApp.swift */; };
+		E4070B682A1BBF4B009A99A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B672A1BBF4B009A99A2 /* ContentView.swift */; };
+		E4070B6A2A1BBF4D009A99A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4070B692A1BBF4D009A99A2 /* Assets.xcassets */; };
+		E4070B6D2A1BBF4D009A99A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4070B6C2A1BBF4D009A99A2 /* Preview Assets.xcassets */; };
+		E4070B772A1BBF4D009A99A2 /* HerbSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B762A1BBF4D009A99A2 /* HerbSampleAppTests.swift */; };
+		E4070B812A1BBF4D009A99A2 /* HerbSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B802A1BBF4D009A99A2 /* HerbSampleAppUITests.swift */; };
+		E4070B832A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B822A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4070B732A1BBF4D009A99A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4070B5A2A1BBF4B009A99A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4070B612A1BBF4B009A99A2;
+			remoteInfo = HerbSampleApp;
+		};
+		E4070B7D2A1BBF4D009A99A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4070B5A2A1BBF4B009A99A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4070B612A1BBF4B009A99A2;
+			remoteInfo = HerbSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4070B622A1BBF4B009A99A2 /* HerbSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerbSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4070B652A1BBF4B009A99A2 /* HerbSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbSampleAppApp.swift; sourceTree = "<group>"; };
+		E4070B672A1BBF4B009A99A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4070B692A1BBF4D009A99A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4070B6C2A1BBF4D009A99A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4070B722A1BBF4D009A99A2 /* HerbSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerbSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4070B762A1BBF4D009A99A2 /* HerbSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbSampleAppTests.swift; sourceTree = "<group>"; };
+		E4070B7C2A1BBF4D009A99A2 /* HerbSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerbSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4070B802A1BBF4D009A99A2 /* HerbSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbSampleAppUITests.swift; sourceTree = "<group>"; };
+		E4070B822A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4070B5F2A1BBF4B009A99A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4070B6F2A1BBF4D009A99A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4070B792A1BBF4D009A99A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4070B592A1BBF4B009A99A2 = {
+			isa = PBXGroup;
+			children = (
+				E4070B642A1BBF4B009A99A2 /* HerbSampleApp */,
+				E4070B752A1BBF4D009A99A2 /* HerbSampleAppTests */,
+				E4070B7F2A1BBF4D009A99A2 /* HerbSampleAppUITests */,
+				E4070B632A1BBF4B009A99A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4070B632A1BBF4B009A99A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B622A1BBF4B009A99A2 /* HerbSampleApp.app */,
+				E4070B722A1BBF4D009A99A2 /* HerbSampleAppTests.xctest */,
+				E4070B7C2A1BBF4D009A99A2 /* HerbSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4070B642A1BBF4B009A99A2 /* HerbSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B652A1BBF4B009A99A2 /* HerbSampleAppApp.swift */,
+				E4070B672A1BBF4B009A99A2 /* ContentView.swift */,
+				E4070B692A1BBF4D009A99A2 /* Assets.xcassets */,
+				E4070B6B2A1BBF4D009A99A2 /* Preview Content */,
+			);
+			path = HerbSampleApp;
+			sourceTree = "<group>";
+		};
+		E4070B6B2A1BBF4D009A99A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B6C2A1BBF4D009A99A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4070B752A1BBF4D009A99A2 /* HerbSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B762A1BBF4D009A99A2 /* HerbSampleAppTests.swift */,
+			);
+			path = HerbSampleAppTests;
+			sourceTree = "<group>";
+		};
+		E4070B7F2A1BBF4D009A99A2 /* HerbSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B802A1BBF4D009A99A2 /* HerbSampleAppUITests.swift */,
+				E4070B822A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift */,
+			);
+			path = HerbSampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4070B612A1BBF4B009A99A2 /* HerbSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4070B862A1BBF4D009A99A2 /* Build configuration list for PBXNativeTarget "HerbSampleApp" */;
+			buildPhases = (
+				E4070B5E2A1BBF4B009A99A2 /* Sources */,
+				E4070B5F2A1BBF4B009A99A2 /* Frameworks */,
+				E4070B602A1BBF4B009A99A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HerbSampleApp;
+			productName = HerbSampleApp;
+			productReference = E4070B622A1BBF4B009A99A2 /* HerbSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4070B712A1BBF4D009A99A2 /* HerbSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4070B892A1BBF4D009A99A2 /* Build configuration list for PBXNativeTarget "HerbSampleAppTests" */;
+			buildPhases = (
+				E4070B6E2A1BBF4D009A99A2 /* Sources */,
+				E4070B6F2A1BBF4D009A99A2 /* Frameworks */,
+				E4070B702A1BBF4D009A99A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4070B742A1BBF4D009A99A2 /* PBXTargetDependency */,
+			);
+			name = HerbSampleAppTests;
+			productName = HerbSampleAppTests;
+			productReference = E4070B722A1BBF4D009A99A2 /* HerbSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4070B7B2A1BBF4D009A99A2 /* HerbSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4070B8C2A1BBF4D009A99A2 /* Build configuration list for PBXNativeTarget "HerbSampleAppUITests" */;
+			buildPhases = (
+				E4070B782A1BBF4D009A99A2 /* Sources */,
+				E4070B792A1BBF4D009A99A2 /* Frameworks */,
+				E4070B7A2A1BBF4D009A99A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4070B7E2A1BBF4D009A99A2 /* PBXTargetDependency */,
+			);
+			name = HerbSampleAppUITests;
+			productName = HerbSampleAppUITests;
+			productReference = E4070B7C2A1BBF4D009A99A2 /* HerbSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4070B5A2A1BBF4B009A99A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E4070B612A1BBF4B009A99A2 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					E4070B712A1BBF4D009A99A2 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E4070B612A1BBF4B009A99A2;
+					};
+					E4070B7B2A1BBF4D009A99A2 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E4070B612A1BBF4B009A99A2;
+					};
+				};
+			};
+			buildConfigurationList = E4070B5D2A1BBF4B009A99A2 /* Build configuration list for PBXProject "HerbSampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4070B592A1BBF4B009A99A2;
+			productRefGroup = E4070B632A1BBF4B009A99A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4070B612A1BBF4B009A99A2 /* HerbSampleApp */,
+				E4070B712A1BBF4D009A99A2 /* HerbSampleAppTests */,
+				E4070B7B2A1BBF4D009A99A2 /* HerbSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4070B602A1BBF4B009A99A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4070B6D2A1BBF4D009A99A2 /* Preview Assets.xcassets in Resources */,
+				E4070B6A2A1BBF4D009A99A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4070B702A1BBF4D009A99A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4070B7A2A1BBF4D009A99A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4070B5E2A1BBF4B009A99A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4070B682A1BBF4B009A99A2 /* ContentView.swift in Sources */,
+				E4070B662A1BBF4B009A99A2 /* HerbSampleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4070B6E2A1BBF4D009A99A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4070B772A1BBF4D009A99A2 /* HerbSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4070B782A1BBF4D009A99A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4070B812A1BBF4D009A99A2 /* HerbSampleAppUITests.swift in Sources */,
+				E4070B832A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4070B742A1BBF4D009A99A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4070B612A1BBF4B009A99A2 /* HerbSampleApp */;
+			targetProxy = E4070B732A1BBF4D009A99A2 /* PBXContainerItemProxy */;
+		};
+		E4070B7E2A1BBF4D009A99A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4070B612A1BBF4B009A99A2 /* HerbSampleApp */;
+			targetProxy = E4070B7D2A1BBF4D009A99A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4070B842A1BBF4D009A99A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4070B852A1BBF4D009A99A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4070B872A1BBF4D009A99A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HerbSampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4070B882A1BBF4D009A99A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HerbSampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4070B8A2A1BBF4D009A99A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerbSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HerbSampleApp";
+			};
+			name = Debug;
+		};
+		E4070B8B2A1BBF4D009A99A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerbSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HerbSampleApp";
+			};
+			name = Release;
+		};
+		E4070B8D2A1BBF4D009A99A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerbSampleApp;
+			};
+			name = Debug;
+		};
+		E4070B8E2A1BBF4D009A99A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerbSampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4070B5D2A1BBF4B009A99A2 /* Build configuration list for PBXProject "HerbSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4070B842A1BBF4D009A99A2 /* Debug */,
+				E4070B852A1BBF4D009A99A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4070B862A1BBF4D009A99A2 /* Build configuration list for PBXNativeTarget "HerbSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4070B872A1BBF4D009A99A2 /* Debug */,
+				E4070B882A1BBF4D009A99A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4070B892A1BBF4D009A99A2 /* Build configuration list for PBXNativeTarget "HerbSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4070B8A2A1BBF4D009A99A2 /* Debug */,
+				E4070B8B2A1BBF4D009A99A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4070B8C2A1BBF4D009A99A2 /* Build configuration list for PBXNativeTarget "HerbSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4070B8D2A1BBF4D009A99A2 /* Debug */,
+				E4070B8E2A1BBF4D009A99A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4070B5A2A1BBF4B009A99A2 /* Project object */;
+}
