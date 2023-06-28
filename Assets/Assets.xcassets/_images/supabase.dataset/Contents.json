@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "supabase.ts",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -14,7 +14,37 @@
 		E4070B772A1BBF4D009A99A2 /* HerbSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B762A1BBF4D009A99A2 /* HerbSampleAppTests.swift */; };
 		E4070B812A1BBF4D009A99A2 /* HerbSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B802A1BBF4D009A99A2 /* HerbSampleAppUITests.swift */; };
 		E4070B832A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B822A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift */; };
+		E4070B952A1BDB20009A99A2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B942A1BDB20009A99A2 /* SearchView.swift */; };
+		E4070B972A1BDD21009A99A2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B962A1BDD21009A99A2 /* TabBar.swift */; };
+		E4070B992A1BDD49009A99A2 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B982A1BDD49009A99A2 /* NavigationBar.swift */; };
+		E4070B9D2A1BE600009A99A2 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B9C2A1BE600009A99A2 /* FavoritesView.swift */; };
+		E4070B9F2A1BE61A009A99A2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070B9E2A1BE61A009A99A2 /* ProfileView.swift */; };
+		E4070BA12A1BE633009A99A2 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070BA02A1BE633009A99A2 /* MessageView.swift */; };
+		E4070BAB2A1BEF51009A99A2 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070BAA2A1BEF51009A99A2 /* RecipeView.swift */; };
+		E4070BAD2A1BEFB2009A99A2 /* TrendingRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070BAC2A1BEFB2009A99A2 /* TrendingRecipesView.swift */; };
+		E4070BAF2A1BF036009A99A2 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070BAE2A1BF036009A99A2 /* RecipeCardView.swift */; };
+		E4070BB12A1BF509009A99A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4070BB02A1BF509009A99A2 /* HomeView.swift */; };
+		E4070BB52A1D8208009A99A2 /* messagebg.png in Resources */ = {isa = PBXBuildFile; fileRef = E4070BB42A1D8208009A99A2 /* messagebg.png */; };
+		E418E48A2A226E0F0046A622 /* logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E418E4892A226E0F0046A622 /* logo.PNG */; };
+		E468D5BE2A1FE9E4006FE56F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E468D5BD2A1FE9E4006FE56F /* SignInView.swift */; };
+		E468D5C12A1FEC42006FE56F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E468D5C02A1FEC42006FE56F /* AuthManager.swift */; };
+		E468D5C32A200392006FE56F /* SignInApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = E468D5C22A200392006FE56F /* SignInApple.swift */; };
+		E493AD4D2A1EC844000E579A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E493AD4C2A1EC844000E579A /* Supabase */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		E418E47C2A225BB30046A622 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		E4070B732A1BBF4D009A99A2 /* PBXContainerItemProxy */ = {
@@ -44,6 +74,24 @@
 		E4070B7C2A1BBF4D009A99A2 /* HerbSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerbSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4070B802A1BBF4D009A99A2 /* HerbSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbSampleAppUITests.swift; sourceTree = "<group>"; };
 		E4070B822A1BBF4D009A99A2 /* HerbSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4070B942A1BDB20009A99A2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E4070B962A1BDD21009A99A2 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E4070B982A1BDD49009A99A2 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		E4070B9C2A1BE600009A99A2 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		E4070B9E2A1BE61A009A99A2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E4070BA02A1BE633009A99A2 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		E4070BAA2A1BEF51009A99A2 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		E4070BAC2A1BEFB2009A99A2 /* TrendingRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRecipesView.swift; sourceTree = "<group>"; };
+		E4070BAE2A1BF036009A99A2 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		E4070BB02A1BF509009A99A2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E4070BB42A1D8208009A99A2 /* messagebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = messagebg.png; path = "Assets.xcassets/_images/6CEA45C0-AEA9-45A0-872F-C52BF88FB75D.imageset/messagebg.png"; sourceTree = "<group>"; };
+		E418E47E2A225C4A0046A622 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		E418E4802A225C530046A622 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+		E418E4892A226E0F0046A622 /* logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.PNG; path = Assets.xcassets/AppIcon.appiconset/logo.PNG; sourceTree = "<group>"; };
+		E468D5BD2A1FE9E4006FE56F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		E468D5C02A1FEC42006FE56F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		E468D5C22A200392006FE56F /* SignInApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApple.swift; sourceTree = "<group>"; };
+		E468D5C42A211DD8006FE56F /* HerbSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HerbSampleApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E493AD4D2A1EC844000E579A /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				E4070B642A1BBF4B009A99A2 /* HerbSampleApp */,
-				E4070B752A1BBF4D009A99A2 /* HerbSampleAppTests */,
+				E4070B922A1BD9EF009A99A2 /* Styles */,
+				E4070B912A1BD9DB009A99A2 /* Components */,
+				E4070B932A1BD9FD009A99A2 /* Assets */,
 				E4070B7F2A1BBF4D009A99A2 /* HerbSampleAppUITests */,
+				E4070B752A1BBF4D009A99A2 /* HerbSampleAppTests */,
 				E4070B632A1BBF4B009A99A2 /* Products */,
+				E418E47D2A225C4A0046A622 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +147,10 @@
 		E4070B642A1BBF4B009A99A2 /* HerbSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				E468D5C42A211DD8006FE56F /* HerbSampleApp.entitlements */,
 				E4070B652A1BBF4B009A99A2 /* HerbSampleAppApp.swift */,
-				E4070B672A1BBF4B009A99A2 /* ContentView.swift */,
-				E4070B692A1BBF4D009A99A2 /* Assets.xcassets */,
+				E4070B902A1BD980009A99A2 /* Navigation */,
+				E4070B8F2A1BD94F009A99A2 /* Views */,
 				E4070B6B2A1BBF4D009A99A2 /* Preview Content */,
 			);
 			path = HerbSampleApp;
@@ -127,6 +181,76 @@
 			path = HerbSampleAppUITests;
 			sourceTree = "<group>";
 		};
+		E4070B8F2A1BD94F009A99A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E468D5BF2A1FEC14006FE56F /* Models */,
+				E4070B942A1BDB20009A99A2 /* SearchView.swift */,
+				E4070BB02A1BF509009A99A2 /* HomeView.swift */,
+				E4070B9E2A1BE61A009A99A2 /* ProfileView.swift */,
+				E4070B9C2A1BE600009A99A2 /* FavoritesView.swift */,
+				E4070BA02A1BE633009A99A2 /* MessageView.swift */,
+			);
+			name = Views;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4070B902A1BD980009A99A2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B672A1BBF4B009A99A2 /* ContentView.swift */,
+				E4070B962A1BDD21009A99A2 /* TabBar.swift */,
+				E4070B982A1BDD49009A99A2 /* NavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E4070B912A1BD9DB009A99A2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E4070BAA2A1BEF51009A99A2 /* RecipeView.swift */,
+				E4070BAC2A1BEFB2009A99A2 /* TrendingRecipesView.swift */,
+				E4070BAE2A1BF036009A99A2 /* RecipeCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E4070B922A1BD9EF009A99A2 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		E4070B932A1BD9FD009A99A2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E4070B692A1BBF4D009A99A2 /* Assets.xcassets */,
+				E418E4892A226E0F0046A622 /* logo.PNG */,
+				E4070BB42A1D8208009A99A2 /* messagebg.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E418E47D2A225C4A0046A622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E418E4802A225C530046A622 /* CryptoKit.framework */,
+				E418E47E2A225C4A0046A622 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E468D5BF2A1FEC14006FE56F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E468D5C02A1FEC42006FE56F /* AuthManager.swift */,
+				E468D5C22A200392006FE56F /* SignInApple.swift */,
+				E468D5BD2A1FE9E4006FE56F /* SignInView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +263,14 @@
 				E4070B602A1BBF4B009A99A2 /* Resources */,
 			);
 			buildRules = (
+				E418E47C2A225BB30046A622 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
 			name = HerbSampleApp;
+			packageProductDependencies = (
+				E493AD4C2A1EC844000E579A /* Supabase */,
+			);
 			productName = HerbSampleApp;
 			productReference = E4070B622A1BBF4B009A99A2 /* HerbSampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +343,9 @@
 				Base,
 			);
 			mainGroup = E4070B592A1BBF4B009A99A2;
+			packageReferences = (
+				E493AD4B2A1EC844000E579A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = E4070B632A1BBF4B009A99A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +364,8 @@
 			files = (
 				E4070B6D2A1BBF4D009A99A2 /* Preview Assets.xcassets in Resources */,
 				E4070B6A2A1BBF4D009A99A2 /* Assets.xcassets in Resources */,
+				E418E48A2A226E0F0046A622 /* logo.PNG in Resources */,
+				E4070BB52A1D8208009A99A2 /* messagebg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +390,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4070B9F2A1BE61A009A99A2 /* ProfileView.swift in Sources */,
+				E468D5C12A1FEC42006FE56F /* AuthManager.swift in Sources */,
+				E4070BAD2A1BEFB2009A99A2 /* TrendingRecipesView.swift in Sources */,
+				E4070BB12A1BF509009A99A2 /* HomeView.swift in Sources */,
+				E4070B992A1BDD49009A99A2 /* NavigationBar.swift in Sources */,
+				E4070BAF2A1BF036009A99A2 /* RecipeCardView.swift in Sources */,
 				E4070B682A1BBF4B009A99A2 /* ContentView.swift in Sources */,
+				E4070BA12A1BE633009A99A2 /* MessageView.swift in Sources */,
+				E4070BAB2A1BEF51009A99A2 /* RecipeView.swift in Sources */,
+				E4070B952A1BDB20009A99A2 /* SearchView.swift in Sources */,
+				E468D5C32A200392006FE56F /* SignInApple.swift in Sources */,
+				E4070B9D2A1BE600009A99A2 /* FavoritesView.swift in Sources */,
 				E4070B662A1BBF4B009A99A2 /* HerbSampleAppApp.swift in Sources */,
+				E4070B972A1BDD21009A99A2 /* TabBar.swift in Sources */,
+				E468D5BE2A1FE9E4006FE56F /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,6 +560,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HerbSampleApp/HerbSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HerbSampleApp/Preview Content\"";
@@ -430,8 +578,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +593,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HerbSampleApp/HerbSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HerbSampleApp/Preview Content\"";
@@ -459,8 +611,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,6 +626,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B8FRDZF569;
@@ -492,6 +647,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B8FRDZF569;
@@ -583,6 +739,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E493AD4B2A1EC844000E579A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E493AD4C2A1EC844000E579A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E493AD4B2A1EC844000E579A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4070B5A2A1BBF4B009A99A2 /* Project object */;
 }
