@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "chromeremotedesktop.dmg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

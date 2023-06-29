@@ -1,0 +1,49 @@
+# Xcode build files
+DerivedData/
+.build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Swift Package Manager (if used)
+/.build/
+/Package.resolved
+
+# CocoaPods (if used)
+Pods/
+*.xcworkspace
+*.xcworkspace/
+
+# Carthage (if used)
+/Carthage/
+
+# Compiled source files
+*.o
+*.swiftmodule
+*.swiftdoc
+*.hmap
+*.dSYM/
+
+# Generated files
+*.generated.swift
+
+# Local configuration files
+*.xcconfig
+*.xccheckout
+*.xcscmblueprint
+
+# macOS specific files
+.DS_Store
+
+# App icons
+*.appiconset/*.png
+
+# Other generated resources
+*.xcassets/*.pdf
+*.xcassets/*.png
+*.xcassets/*.jpg
+
+# Exclude any other specific files or directories as needed
+
